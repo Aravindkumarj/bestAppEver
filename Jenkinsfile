@@ -10,6 +10,7 @@ node(){
   stage('Build')   {
       mtaBuild (
             script:this
+            dockerImage: 'devxci/mbtci-java11-node14'
         )
   }
 
