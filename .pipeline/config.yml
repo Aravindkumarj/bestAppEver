@@ -1,0 +1,10 @@
+steps:
+  mtaBuild:
+    platform: 'CF'
+  cloudFoundryDeploy:
+    cloudFoundry:
+      deployTool: 'mtaDeployPlugin'
+      apiEndpoint: 'https://api.cf.us10.hana.ondemand.com'
+      org: '82f90d5ftrial'
+      space: 'dev'
+      credentialsId: 'CF-jenkins-credentials-id'
